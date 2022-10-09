@@ -1,10 +1,10 @@
-
 import './App.css';
+import { Title } from './Components/Title';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      
+      <Title>Age Predictor</Title>
     </div>
   );
 }
