@@ -34,3 +34,45 @@ App
     padding-top: 36px;
     text-align: center;
 }
+
+/*-----------------
+SearchAge
+-------------------*/
+.container  {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container .form-control {
+    text-align: left;
+    margin-bottom: 15px; 
+    width: 250px;
+}
+
+.container .option{
+    font-size: 25px;
+}
+  
+.container .form-label {
+    width: auto;
+}
+  
+.container .btn {
+    color: var(--Soft-White);
+    background-color: var(--Soft-Red);
+    border-color: var(--Soft-Red);
+    border-radius: 4px;
+    margin-top: 20px;
+    padding: 7px;
+    width: 100px;
+    font-size: 15px;
+    box-shadow: 0 3px 5px rgb(94 104 121 / 29%);
+}
+
+ .container .btn:hover {
+    color: var(--Soft-Red);
+    background-color: var(--Soft-White);
+    border-color: var(--Soft-Red);
+    font-weight: 500;
+}
