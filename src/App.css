@@ -56,11 +56,19 @@ SearchAge
   
 .container .form-label {
     width: auto;
+    color:var(--Soft-Red)
 }
 
 .container .AgeText {
     max-width: inherit;
     font-size: 18px;
     margin-top: 35px;
+    color: var(--Soft-Red);
 } 
   
+.container .CountryText {
+    max-width: inherit;
+    font-size: 18px;
+    margin-top: 35px;
+    color: var(--Soft-Red);
+}
